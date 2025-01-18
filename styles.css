@@ -13,6 +13,11 @@ body {
 h1 {
     color: rgb(45, 45, 51);
 }
+
+h2 {
+    color: rgb(45, 45, 51);
+}
+
 .summary_head {
     color: rgb(45, 45, 51);
 }
@@ -31,22 +36,45 @@ h1 {
 }
 
 .summary {
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    position: absolute;
+    left: 350px;
 }
 
 .prons {
-    color: #d0d0d0;
+    color: #b7b6b6;
     line-height: 0.1;
     padding: auto;
     position: relative;
-    left: 25px;
 }
 
 p {
     color: rgb(45, 45, 51);
 
+}
+
+ul {
+    color: rgb(45, 45, 51);
+    line-height: 1.5;
+}
+
+.art1 {
+    position: absolute;
+    top: 650px;
+}
+
+.art2 {
+    position: absolute;
+    top: 650px;
+    left: 670px;
+}
+
+.art3 {
+    position: absolute;
+    top: 1200px;
+}
+
+.art4 {
+    position: absolute;
+    top: 1200px;
+    left: 670px;
 }
